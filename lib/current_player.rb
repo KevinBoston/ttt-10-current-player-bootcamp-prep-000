@@ -1,7 +1,8 @@
 def turn_count(board)
   turns = 0
   board.each do |mark|
-    if 
+    if mark == "X" || mark == "O"
+      
      
 end
 
