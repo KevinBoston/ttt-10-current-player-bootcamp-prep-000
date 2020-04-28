@@ -6,7 +6,7 @@ def turn_count(board)
       x_count +=1
       elsif board[i] == "O"
       o_count +=1
-    end i+=1
+    end i +=1
     end
     t_count = x_count + o_count
 end
