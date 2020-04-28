@@ -8,9 +8,9 @@ def turn_count(board)
       o_count +=1
     end i+=1
     end
-    
+    t_count = x_count + o_count
 end
 
-def current_player(count)
+def current_player(t_count)
   
 end
