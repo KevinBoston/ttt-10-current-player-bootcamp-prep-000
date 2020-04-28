@@ -3,7 +3,9 @@ def turn_count(board)
   board.each do |mark|
     if mark == "X" || mark == "O"
       turns += 1
-     
+    end
+  end
+  turns
 end
 
 def current_player(t_count)
