@@ -17,4 +17,5 @@ def current_player(t_count)
     "X"
   else 
     "O"
+  end
 end
